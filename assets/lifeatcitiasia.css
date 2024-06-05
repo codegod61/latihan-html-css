@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header & navbar css start */
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    background: rgba(217, 217, 217, 0.50);
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    padding: 10px 0px 10px 0px;
+    /* position: static; */
+}
+
+.navbar .nav-link {
+    display: flex;
+    padding-left: 10rem;
+    align-items: center;
+    gap: 50px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar .nav-link a {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.navbar .nav-link a:hover {
+    text-decoration: underline solid black 2.5px;
+    text-underline-offset: 8px;
+    color: #2758A7
+}
+
+.button-call-us {
+    display: flex;
+    width: 150px;
+    padding: 5px;
+    background-color: #EB4526;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button-call-us a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+/* header & navbar css end */
+
+/* pembatas css start */
+
+.pembatas img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 24px;
+}
+
+/* pembatas css end */
+
+/* life at citiasia css start */
+
+.bg-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.bg-image .bg-word {
+    display: flex;
+    padding: 35px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #2758A7 0%, #0F2241 100%);
+}
+
+/* Life at citiasia css end */
+
+/* Activity css start */
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9;
+}
+
+.activity .activity-word {
+    display: flex;
+    color: #2758A7;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 20px;
+}
+
+.activity img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activity #carouselExampleCaptions .carousel-item h5 {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-shadow: #000 10px 0 10px;
+}
+
+/* Activity css end */
+
+/* contribute css start */
+
+.contribute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    font-family: 'poppins';
+}
+
+.contribute-word {
+    padding: 5px 0px 0px 0px;
+}
+
+.contribute-word h3 {
+    color: #2758A7;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.contribute-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribute-img img {
+    /* position: absolute; */
+    width: 97vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.contribute-img a:hover {
+    opacity: 0.50;
+}
+
+.contribute-magang a {
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribute-stupen a {
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribute-magang img {
+    z-index: 100;
+}
+
+.contribute-stupen img {
+    z-index: 100;
+}
+
+.contribute-stupen {
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribute-magang h3 {
+    z-index: 100;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+}
+
+.contribute-stupen h3 {
+    color: #FFF;
+    z-index: 100;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    z-index: 100px;
+    position: absolute;
+}
+
+/* contribute css end */
+
+/* Testimoni css start */
+
+.testimoni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'poppins';
+}
+
+.testimoni-word {
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 3px 0px 0px 0px;
+}
+
+.testimoni h3 {
+    color: #2758A7;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.testimoni-card {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.testimoni-card .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2758A7;
+}
+
+.testimoni-card .card img {
+    margin: 40px 0px 10px 0px;
+    width: 189px;
+    height: 189px;
+    border-radius: 189px;
+}
+
+.testimoni-card .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.testimoni-card .card .card-text {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.36px;
+}
+
+/* Testimoni css end */
+
+/* Life at Citiasia ig fetch css start */
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+}
+
+.instagram-word {
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 3px 0px 0px 0px;
+}
+
+.instagram-word h3 {
+    color: #2758A7;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.instagram .instagram-container {
+    width: 75%;
+    margin: 50px 0px 50px 0px;
+}
+
+
+.instagram-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    width: 100%;
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 0px;
+}
+
+.instagram .grid-item img {
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Life at Citiasia ig fetch css end */
+
+/* footer css start */
+.bg {
+    padding: 30px 0px 0px 0px;
+    background-color: #2758A7;
+}
+
+.bg .container .footer-citiasia {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: left !important;
+    align-items: start !important;
+    flex-basis: 50%;
+  }
+  
+  .bg .container .footer-citiasia h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+  }
+  
+  .bg .container .footer-citiasia-2 {
+    /* flex-direction: column; */
+    flex-basis: 50%;
+    font-family: 'poppins';
+    flex-direction: column;
+  }
+  
+  .footer-citiasia-2 .about-layanan {
+    display: flex;
+  }
+  
+  .footer-citiasia-2 .about {
+    width: 200px;
+  }
+  
+  .footer-citiasia-2 .layanan {
+    width: 200px;
+  }
+  
+  .footer-citiasia-2 .about ul,
+  li  {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+  }
+  
+  .footer-citiasia-2 .layanan ul,
+  li {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+  }
+
+  .footer-citiasia-2 .layanan a {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .bg .footer-citiasia .alamat {
+    flex-direction: column !important;
+    text-align: justify;
+    color: white;
+    width: 50%;
+  }
+  
+  .bg .footer-citiasia .alamat p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  
+  .bg .container .footer-citiasia-2 .social-media {
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+  .bg .container .footer-citiasia-2 .social-media .list-sosmed {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .bg .container .footer-citiasia-2 .form-subs {
+    width: 75%;
+    border: 1px solid;
+    border-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .bg .container .footer-citiasia-2 .form-subs input {
+    height: 50px;
+    padding: 10.2px 0px 10.2px 16px;
+    width: 300px;
+  
+    border-radius: 5px;
+  }
+  
+  .bg .container .footer-citiasia-2 .form-subs button {
+    padding: 12px 15.15px 13px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #EB4526
+  }
+  
+  .bg .container .footer-citiasia-2 .policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    color: white;
+  }
+
+  .footer-citiasia .reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+  }
+
+/* footer css end */

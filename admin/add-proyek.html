@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Proyek</title>
+    <link rel="stylesheet" href="css/add-portfolio.css" />
+</head>
+
+<body>
+    <!-- Add News Form -->
+    <div class="add-news">
+        <div class="add-news-title">
+            <img src="images/back.png" alt="" width="30px" />
+            <h2>Tambah Portfolio / Proyek</h2>
+        </div>
+        <div class="add-news-form">
+            <div class="form">
+                <form action="" class="form-body">
+                    <div class="input-title">
+                        <label for="portfolio">Pilih Kategori Portfolio</label>
+                        <div class="dropdown">
+                            <button type="button" class="dropbtn" onclick="toggleDropdown()" style="color: black;">
+                                Karir
+                                <img class="down" src="../image/downward-arrow.png" alt="" width="15px"
+                                    style="margin-right: 10px;" />
+                            </button>
+                            <div class="dropdown-content" id="dropdownContent">
+                                <a href="javascript:void(0);">Karir</a>
+                                <a href="magang.html">Magang</a>
+                                <a href="#">Studi Independen</a>
+                                <a href="prakerja.html">Prakerja</a>
+                                <a href="lifeatcitiasia.html">Life at Citiasia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-content">
+                        <label for="judul"> Input Judul </label>
+                        <input type="text" name="judul" id="" placeholder="Masukan Text Berita" />
+                    </div>
+                    <div class="upload-image" style="display: flex; flex-direction: column">
+                        <label for="file">
+                            Upload Foto Banner
+                        </label>
+                        <input id="file-upload" type="file" />
+                    </div>
+                    <div class="input-caption" style="display: flex; flex-direction: column">
+                        <label for="caption"> Input Keterangan </label>
+                        <input type="text" name="caption" id="caption" placeholder="Masukan Judul" />
+                    </div>
+                    <div class="form-btn">
+                        <button>Delete</button>
+                        <button type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        // js header dropdown karir
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleButtons = document.querySelectorAll(".dropbtn");
+
+            toggleButtons.forEach((button) => {
+                button.addEventListener("click", function () {
+                    const answer = this.nextElementSibling;
+
+                    if (answer.style.display === "block") {
+                        answer.style.display = "none";
+                        this.classList.remove("expanded");
+                    } else {
+                        answer.style.display = "block";
+                        this.classList.add("expanded");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

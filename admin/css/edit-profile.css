@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.add-news {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.add-news-title {
+    display: flex;
+    justify-content: center;
+    padding-right: 8rem;
+    gap: 50px;
+}
+
+
+.add-news-form {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-title,
+.input-content,
+.input-source {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+.input-title input[type="text"], 
+.input-title input[type="password"] {
+    width: 350px;
+    padding: 9px 0px 9px 16px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px #8A92A6;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.input-title label,
+.input-content label,
+.input-source label,
+.upload-image label,
+.input-caption label {
+    color: #8A92A6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+input::file-selector-button {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #EEE;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px #8A92A6;
+    font-weight: bold;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+    color: #8A92A6;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-btn button:nth-child(1) {
+    display: flex;
+    padding: 9px 16.83px 9px 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #FE3905;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.form-btn button:nth-child(2) {
+    display: flex;
+    padding: 9px 24.83px 9px 25px;
+    border-radius: 4px;
+    background: #3A57E8;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.00);
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+    color: #FFF;
+}

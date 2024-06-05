@@ -1,0 +1,61 @@
+body {
+    /* background-color: aqua; */
+}
+
+h1,h2 {
+    text-align: center;
+    color: aqua;
+    /* text-decoration: underline overline blue ; */
+
+}
+
+p {
+    /* text-align: center; */
+    /* font-weight: 700; */
+    /* letter-spacing: -2px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+#list2 {
+    color: blue;
+}
+
+.mark {
+    background-color: red;
+}
+
+a + button {
+    background-color: blue;
+}
+
+input[type=text] {
+    color: gray;
+}
+a[href="a"] {
+    color: brown;
+}
+
+button:hover {
+    background: red;
+    cursor: pointer;
+}
+
+.lorem > p:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.lorem p:nth-child(2n) {
+    color: green;
+}
+
+input:checked + label {
+    color: red;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0  0 3px red;
+}

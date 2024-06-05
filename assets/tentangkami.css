@@ -1,0 +1,1215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header & navbar css start */
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    background: rgba(217, 217, 217, 0.50);
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    padding: 10px 0px 10px 0px;
+    /* position: static; */
+}
+
+.navbar .nav-link {
+    display: flex;
+    padding-left: 10rem;
+    align-items: center;
+    gap: 50px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar .nav-link a {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.navbar .nav-link a:hover {
+    text-decoration: underline solid black 2.5px;
+    text-underline-offset: 8px;
+    color: #2758A7
+}
+
+.button-call-us {
+    display: flex;
+    width: 150px;
+    padding: 5px;
+    background-color: #EB4526;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button-call-us a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+/* header & navbar css end */
+
+/* pembatas css start */
+
+.pembatas img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 24px;
+}
+
+/* pembatas css end */
+
+/* tentang citiasia css start */
+
+.tentang {
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+    background-color: #1D65A4;
+}
+
+.tentang-container {
+    display: flex;
+    align-items: center;
+}
+
+.tentang-banner {
+    flex-basis: 50%;
+    margin-top: 5px;
+}
+
+.tentang-desc {
+    flex-basis: 50%;
+}
+
+.tentang-desc h3 {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.tentang-desc p {
+    font-family: 'roboto';
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 5rem;
+}
+
+/* tentang citiasia css end */
+
+/* visi misi css start */
+
+.visi-misi {
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    margin: 4rem 0rem 3rem;
+}
+
+.body-vismis {
+    margin: 5rem;
+    border: 5px solid black;
+    flex-direction: column;
+}
+
+.header-vismis {
+    justify-content: center;
+    border: 5px solid black;
+    width: 100%;
+    gap: 200px;
+}
+
+.content-vismis {}
+
+/* visi misi css end */
+
+/* team member css start */
+
+.team {
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.team-banner {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #2758A7;
+    padding: 10px;
+}
+
+.team-banner h3 {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.board-banner {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
+.board-banner h3 {
+    color: #2758A7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+/* team member css end */
+
+/* board directors css start */
+
+.board-directors {
+    flex-direction: column;
+}
+
+.board-directors-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.directors-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.directors-product .directors-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 7rem;
+}
+
+.directors-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.directors-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.directors-product .directors-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+.directors-product .directors-product-card .product-desc {
+    background-color: #2758A7;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.directors-product .directors-product-card .product-desc:hover {
+    padding-bottom: 200px;
+    z-index: 5;
+}
+
+.product-word {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px !important;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    z-index: -1;
+}
+
+.product-desc:hover .product-word {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.product-desc a {
+    text-decoration: none;
+}
+
+.product-desc .visit-product {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    margin-top: -50px !important;
+    z-index: -1;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #F5B203;
+    color: white;
+    border-radius: 100px;
+}
+
+.product-desc:hover .visit-product {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.directors-product .directors-product-card .product-desc .product-name {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* .smart-product .smart-product-card .product-desc a:hover {
+    text-decoration: underline black;
+} */
+
+/* board directors css end */
+
+
+/* board team css start */
+
+.board-team {
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.board-team-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-team {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.banner-team h3 {
+    color: #2758A7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.team-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.team-product .team-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 7rem;
+}
+
+.team-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.team-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.team-product .team-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+.team-product .team-product-card .product-desc {
+    background-color: #2758A7;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.team-product .team-product-card .product-desc:hover {
+    padding-bottom: 200px;
+    z-index: 5;
+}
+
+.product-word {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px !important;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    z-index: -1;
+}
+
+.product-desc:hover .product-word {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.product-desc a {
+    text-decoration: none;
+}
+
+.product-desc .visit-product {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    margin-top: -50px !important;
+    z-index: -1;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #F5B203;
+    color: white;
+    border-radius: 100px;
+}
+
+.product-desc:hover .visit-product {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.team-product .team-product-card .product-desc .product-name {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* .smart-product .smart-product-card .product-desc a:hover {
+    text-decoration: underline black;
+} */
+
+/* board team css end */
+
+/* board commisioners css start */
+
+.board-commisioners {
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.board-commisioners-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-commisioners {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.banner-commisioners h3 {
+    color: #2758A7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.commisioners-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.commisioners-product .commisioners-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 7rem;
+}
+
+.commisioners-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.commisioners-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.commisioners-product .commisioners-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+.commisioners-product .commisioners-product-card .product-desc {
+    background-color: #2758A7;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.commisioners-product .commisioners-product-card .product-desc:hover {
+    padding-bottom: 200px;
+    z-index: 5;
+}
+
+.product-word {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px !important;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    z-index: -1;
+}
+
+.product-desc:hover .product-word {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.product-desc a {
+    text-decoration: none;
+}
+
+.product-desc .visit-product {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    margin-top: -50px !important;
+    z-index: -1;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #F5B203;
+    color: white;
+    border-radius: 100px;
+}
+
+.product-desc:hover .visit-product {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.commisioners-product .commisioners-product-card .product-desc .product-name {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* .smart-product .smart-product-card .product-desc a:hover {
+    text-decoration: underline black;
+} */
+
+/* board commisioners css end */
+
+/* other divison css start */
+
+.other-division {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+    width: 100%;
+}
+
+.other-division .show-btn {
+    display: flex;
+    width: 1305px;
+    height: 39px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #F5B203;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2rem;
+    color: white;
+}
+
+/* board of division 1 css start */
+
+.board-division1 {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.board-division1-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-division1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.banner-division1 h3 {
+    color: #2758A7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.division1-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.division1-product .division1-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 7rem;
+}
+
+.division1-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.division1-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.division1-product .division1-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+.division1-product .division1-product-card .product-desc {
+    background-color: #2758A7;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.division1-product .division1-product-card .product-desc:hover {
+    padding-bottom: 200px;
+    z-index: 5;
+}
+
+.product-word {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px !important;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    z-index: -1;
+}
+
+.product-desc:hover .product-word {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.product-desc a {
+    text-decoration: none;
+}
+
+.product-desc .visit-product {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    margin-top: -50px !important;
+    z-index: -1;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #F5B203;
+    color: white;
+    border-radius: 100px;
+}
+
+.product-desc:hover .visit-product {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.division1-product .division1-product-card .product-desc .product-name {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* .smart-product .smart-product-card .product-desc a:hover {
+    text-decoration: underline black;
+} */
+
+/* board of division 1 css end */
+
+/* board of division 2 css start */
+
+.board-division2 {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.board-division2-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-division2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.banner-division2 h3 {
+    color: #2758A7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.division2-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.division2-product .division2-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 7rem;
+}
+
+.division2-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.division2-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.division2-product .division2-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+.division2-product .division2-product-card .product-desc {
+    background-color: #2758A7;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.division2-product .division2-product-card .product-desc:hover {
+    padding-bottom: 200px;
+    z-index: 5;
+}
+
+.product-word {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px !important;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    z-index: -1;
+}
+
+.product-desc:hover .product-word {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.product-desc a {
+    text-decoration: none;
+}
+
+.product-desc .visit-product {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    margin-top: -50px !important;
+    z-index: -1;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #F5B203;
+    color: white;
+    border-radius: 100px;
+}
+
+.product-desc:hover .visit-product {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.division2-product .division2-product-card .product-desc .product-name {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* .smart-product .smart-product-card .product-desc a:hover {
+    text-decoration: underline black;
+} */
+
+/* board of division 2 css end */
+
+/* other division css end */
+
+/* mitra css start */
+
+.mitra {
+    flex-direction: column !important;
+    font-family: 'poppins';
+    align-items: center;
+}
+
+.mitra-banner {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #2758A7;
+    padding: 10px;
+}
+
+.mitra-banner h3 {
+    color: #FFF;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+}
+
+.mitra-tabs {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 100%;
+}
+
+.mitra-tabs h5 {
+    margin: 10px 0px;
+    width: 140px;
+    color: #2758A7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.mitra-tabs h5:hover {
+    text-decoration: underline 2px;
+}
+
+/* mitra css end */
+
+/* mitra logo luar negeri css start */
+
+.mitra-logo1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.mitra-logo1-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mitra-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.mitra-product .mitra-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 2rem;
+}
+
+.mitra-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.mitra-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.mitra-product .mitra-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* mitra logo luar negeri css end */
+
+/* mitra logo dalam negeri css start */
+
+.mitra-logo2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.mitra-logo2-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mitra-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.mitra-product .mitra-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 2rem;
+}
+
+.mitra-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.mitra-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.mitra-product .mitra-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* mitra logo dalam negeri css end */
+
+/* footer css start */
+.bg {
+    padding: 30px 0px 0px 0px;
+    background-color: #2758A7;
+}
+
+.bg .container .footer-citiasia {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: left !important;
+    align-items: start !important;
+    flex-basis: 50%;
+  }
+  
+  .bg .container .footer-citiasia h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+  }
+  
+  .bg .container .footer-citiasia-2 {
+    /* flex-direction: column; */
+    flex-basis: 50%;
+    font-family: 'poppins';
+    flex-direction: column;
+  }
+  
+  .footer-citiasia-2 .about-layanan {
+    display: flex;
+  }
+  
+  .footer-citiasia-2 .about {
+    width: 200px;
+  }
+  
+  .footer-citiasia-2 .layanan {
+    width: 200px;
+  }
+  
+  .footer-citiasia-2 .about ul,
+  li  {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+  }
+  
+  .footer-citiasia-2 .layanan ul,
+  li {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+  }
+
+  .footer-citiasia-2 .layanan a {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .bg .footer-citiasia .alamat {
+    flex-direction: column !important;
+    text-align: justify;
+    color: white;
+    width: 50%;
+  }
+  
+  .bg .footer-citiasia .alamat p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  
+  .bg .container .footer-citiasia-2 .social-media {
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+  .bg .container .footer-citiasia-2 .social-media .list-sosmed {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .bg .container .footer-citiasia-2 .form-subs {
+    width: 75%;
+    border: 1px solid;
+    border-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .bg .container .footer-citiasia-2 .form-subs input {
+    height: 50px;
+    padding: 10.2px 0px 10.2px 16px;
+    width: 300px;
+  
+    border-radius: 5px;
+  }
+  
+  .bg .container .footer-citiasia-2 .form-subs button {
+    padding: 12px 15.15px 13px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #EB4526
+  }
+  
+  .bg .container .footer-citiasia-2 .policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    color: white;
+  }
+
+  .footer-citiasia .reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+  }
+
+/* footer css end */

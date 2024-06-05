@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar HTML</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="">home</a>
+      <a href="">About</a>
+    </nav>
+
+    <main>
+      <section>
+        <h1>HTML</h1>
+
+        <hr />
+
+        <p>
+          <b>HyperText Markup Language (HTML) </b> adalah
+          <a href="http://google.com">bahasa markah </a> standar untuk dokumen
+          yang dirancang untuk ditampilkan di peramban
+          <span style="color: red">internet</span>. <br />
+          Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets (CSS)
+          dan bahasa skrip lainnya seperti JavaScript, VBScript, dan PHP.
+        </p>
+      </section>
+
+      <!-- contoh superscript -->
+      <p>Ini adalah contoh <sup>superscript</sup> dan <sub>subscript</sub></p>
+
+      <!-- Entity Code -->
+      <p>
+        Contoh entity code: &copy; &reg; &trade; &cent; &pound; &yen; &euro;
+        &dollar; &plusmn; &times; &divide; &micro; &permil; &para; &sect; &deg;
+        &sup1; &sup2; &sup3; &frac14; &frac12; &frac34; &iquest; &iexcl; &not;
+        &amp; &lt; &gt; &quot; &apos;
+      </p>
+
+      <p>
+        <a href="">Peramban internet </a> menerima dokumen HTML dari server web
+        atau dari penyimpanan lokal dan membuat dokumen menjadi halaman web
+        multimedia. HTML menggambarkan struktur halaman web secara semantik dan
+        isyarat awal yang disertakan untuk penampilan dokumen.
+      </p>
+
+      <article>
+        <h2>Sejarah HTML</h2>
+        <h3>24 November 1995</h3>
+        <p>
+          HTML 2.0 dipublikasikan sebagai IETF RFC 1866.Penambahan RFC
+          memperbanyak kemampuan untuk:
+        </p>
+
+        <aside>
+          <ul>
+            <li>
+              <b>November 25, 1995 </b> : RFC 1867 (mengunggah file berdasarkan
+              bentuk)
+              <ol>
+                <li>img</li>
+                <li>pdf</li>
+                <li>jpg</li>
+              </ol>
+            </li>
+            <li>24 Mei</li>
+            <li>Agustus 1996</li>
+          </ul>
+        </aside>
+      </article>
+
+      <aside>
+        <div>
+          <h3>Night Sky</h3>
+          <img
+            src="https://images.unsplash.com/photo-1579021289055-fc2679991a35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHlpbmclMjB5YW5nfGVufDB8fDB8fHw"
+            alt="Ying Yang img"
+          />
+        </div>
+      </aside>
+
+      <!-- Ini Komentar -->
+
+      <!-- table -->
+      <section>
+        <h3>TABLE HTML</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Negara</th>
+              <th>Ibu Kota</th>
+              <th>Penduduk</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tiongkok</td>
+              <td>Beijing</td>
+              <td>20.000.000</td>
+            </tr>
+            <tr>
+              <td>Rusia</td>
+              <td>Moskow</td>
+              <td>11.000.000</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>31.000.000</td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <hr />
+
+        <table border="1">
+          <thead>
+            <tr>
+              <th rowspan="2">Tahun</th>
+              <th colspan="2">Morris</th>
+            </tr>
+            <tr>
+              <th>Penjualan</th>
+              <th>Keuntungan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">7000 SM</td>
+              <td>adsfasf</td>
+              <td>adfasf</td>
+            </tr>
+            <tr>
+              <td>a</td>
+              <td>adfs</td>
+            </tr>
+            <tr>
+              <td>aa</td>
+              <td>adfa</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h3>FORM HTML</h3>
+        <form action="daftar" method="GET">
+          <div>
+            <label for="name">text</label>
+            <input type="text" placeholder="text" id="name" name="name" required maxlength="50" />
+          </div>
+          <div>
+            <label for="password">password</label>
+            <input
+              type="password"
+              placeholder="password"
+              id="password"
+              name="password"
+            />
+          </div>
+          <div>
+            <label for="file">file</label>
+            <input type="file" id="file" />
+          </div>
+          <div>
+            <label for="color">color</label>
+            <input type="color" id="color" />
+          </div>
+          <div>
+            <label for="date">tanggal</label>
+            <input type="date" id="date" />
+          </div>
+          <div>
+            <label for="number">nomor hp</label>
+            <input type="number" placeholder="handphone" id="number"  minlength="11" maxlength="13"/>
+          </div>
+          <div>
+            <label for="">Jenis Kelamin</label>
+            <br />
+            <input type="radio" name="gender" id="gender" value="pria" />
+            <label for="pria">PRIA</label>
+            <input type="radio" name="gender" id="gender" value="wanita" />
+            <label for="wanita">WANITA</label>
+          </div>
+          <div>
+            <label for="kota">PILIH KOTA</label><br>
+            <select name="kota" id="kota">
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="surabaya">Surabaya</option>
+            </select>
+          </div>
+          <div>
+            <label for="term">Peraturan</label>
+            <br>
+            <input type="checkbox" id="term" name="check1" id="check1" value="check1"/>
+            <input type="checkbox" id="term" name="check2" id="check2" value="check2"/>
+            <input type="checkbox" id="term" name="check3" id="check3" value="check3"/>
+          </div>
+          <br>
+          <div>
+            <label for="pesan">Pesan</label>
+            <br>
+            <textarea name="pesan" id="pesan" cols="30" rows="5"></textarea>
+          </div>
+          <br>
+          <button type="submit">LOGIN</button>
+          <input type="button" value="DAFTAR" required/>
+
+        </form>
+      </section>
+
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos explicabo veritatis mollitia ducimus? Ad, nostrum. Reiciendis eligendi cupiditate incidunt non omnis. Sed consequatur veniam temporibus delectus expedita suscipit vero omnis.
+      A nisi eaque unde quia accusantium rem quos possimus at accusamus voluptatem maiores molestiae veniam sint laudantium, deleniti corporis, tempore fugiat distinctio nobis earum quam voluptatibus modi illum. Harum, velit?
+      Similique nostrum non, id vel distinctio harum esse ab pariatur dicta deleniti voluptates quaerat exercitationem dignissimos repudiandae optio mollitia at. Consequuntur explicabo vitae optio magnam et illo? Fugit, earum nulla?</p>
+    </main>
+
+    <footer>
+      <p>&copy; 2021 - <a href="http://google.com">Google</a></p>
+    </footer>
+  </body>
+</html>

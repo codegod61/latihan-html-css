@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Dropdown</title>
+    <style>
+        /* Styles for FAQ dropdown */
+        .faq-answer {
+            display: none;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-answer p {
+            margin: 0;
+            width: 800px;
+        }
+
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .faq-list button {
+            width: 55%;
+            text-align: left;
+            padding: 10px 25px 10px 25px;
+            border-radius: 20px;
+            background-color: #EFEFEF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: none;
+
+            color: #000;
+
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        .faq-list button img {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-list button.expanded img.down {
+            transform: rotate(180deg);
+        }
+
+        .faq-list button.expanded img.up {
+            transform: rotate(0deg);
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="faq-list">
+        <button class="toggle-answer">
+            Apa Tujuan Program Ini ?
+            <img class="down" src="image/dropdown.png" alt="" width="15px">
+            <img class="up hidden" src="image/dropup.png" alt="" width="15px">
+        </button>
+        <div class="faq-answer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for FAQ dropdown with button
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButtons = document.querySelectorAll('.toggle-answer');
+
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const answer = this.nextElementSibling;
+                    const images = this.querySelectorAll('img');
+
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                        this.classList.remove('expanded');
+                    } else {
+                        answer.style.display = 'block';
+                        this.classList.add('expanded');
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>

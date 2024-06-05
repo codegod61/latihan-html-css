@@ -1,0 +1,8 @@
+INSERT INTO `faqs`(`question`, `answer`, `active_status`) 
+VALUES 
+('Apa itu perusahaan Citiasia. Inc?', 'Citiasia merupakan konsultan bisnis yang bergerak dalam bidang transformasi digital untuk mewujudkan Smart City dan Smart Enterprise di Indonesia.', '1'),
+('Apa saja layanan dari Citiasia. Inc?', 'Layanan Smart City terdiri dari Mater Plan Smart City, Blueprint TIK, Blueprint Smart City Branding, Blueprint SPBE, Training, Smart City Cloud, OCCE, dan TVCC. Lalu, terdapat 8 layanan untuk Smart Enterprise, yaitu Blueprint Enterprise Architecture, Assesement Program, Konsultasi Promosi dan Pemasaran, Smart Enterprise Cloud, Surveyasia, ERP RUN System, dan PJU Pintar.', '1'),
+('Apakah Citiasia Memiliki Pengalaman untuk Memberikan Pelatihan?', 'Citiasia memiliki pengalaman panjang dan kapasitas untuk merencanakan dan menyelenggarakan sesi literasi dan peningkatan kapasitas, termasuk dalam format video. Sejak 2005, Citiasia telah menyelenggarakan public and inhouse (offline) trainings dengan berbagai topik kepada private companies, BUMN, ministries, LGs, dan warga.', '1'),
+('Siapa saja yang dapat menggunakan layanan dari Citiasia Inc?', 'Citiasia tidak hanya menyediakan layanan untuk pemerintah, tetapi juga dapat diakses oleh sektor swasta dan publik.', '1'),
+('Bagaimana cara untuk menggunakan layanan dari Citiasia Inc?', 'Anda dapat melakukan konsultasi terlebih dahulu secara tatap muka ataupun melalui platform meeting online. Untuk melakukan konsultasi, Anda dapat menghubungi melalui kontak +62 812-8881-1463.', '1'),
+('Berapa harga dari setiap layanan yang dimiliki Citiasia Inc?', 'Untuk mengetahui tarif layanan Citiasia Anda dapat langsung menghubungi kami melalui +62 812-8881-1463.', '1');

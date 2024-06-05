@@ -1,0 +1,1005 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header & navbar css start */
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    background: rgba(217, 217, 217, 0.50);
+    position: sticky;
+    top: 0;
+    /* Meletakkan header di bagian atas */
+    width: 100%;
+    /* Menyesuaikan lebar header dengan lebar viewport */
+    z-index: 999;
+    /* Memastikan header muncul di atas konten lain */
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    padding: 10px 0px 10px 0px;
+    /* position: static; */
+}
+
+.navbar .nav-link {
+    display: flex;
+    padding-left: 10rem;
+    align-items: center;
+    gap: 35px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar .nav-link a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.navbar .nav-link a:hover {
+    text-decoration: underline solid black 2.5px;
+    text-underline-offset: 8px;
+    color: #2758A7
+}
+
+/* Dropdown button */
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown button img {
+    transition: transform 0.3s ease;
+}
+
+.dropdown button.expanded img.down {
+    transform: rotate(180deg);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.nav-link button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.button-call-us {
+    display: flex;
+    width: 150px;
+    padding: 5px;
+    background-color: #EB4526;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button-call-us a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+/* header & navbar css end */
+
+
+/* pembatas css start */
+
+.pembatas img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 24px;
+}
+
+/* pembatas css end */
+
+/* banner robot css start */
+
+.banner-citiasia {
+    align-items: center;
+    font-family: 'poppins';
+}
+
+.banner-citiasia img {
+    display: flex !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+}
+
+.banner-container {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-container img {
+    width: 501.75px;
+    height: 622.13px;
+}
+
+.banner-word {
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+    margin-left: 4rem;
+}
+
+.banner-word h3 {
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.banner-word p {
+    width: 700px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* banner robot css end */
+
+/* citiasia inc */
+
+.citiasiainc-gif {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 2rem;
+}
+
+.citiasiainc-gif .citiasiainc-word {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    /* padding: 26px; */
+    height: 278px;
+    background-color: #0072BC;
+}
+
+.citiasiainc-gif .citiasiainc-word h3 {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px
+}
+
+.citiasiainc-gif .citiasiainc-word2 {
+    margin: 0px 50px 0px 50px;
+}
+
+.citiasiainc-gif .citiasiainc-word p {
+    color: #FFF !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+}
+
+.citiasiainc-gif .citiasiainc-word button {
+    width: 100px !important;
+    padding: 5px 0px !important;
+    color: white !important;
+    background-color: #F5B203 !important;
+    border-radius: 15px !important;
+    margin: 10px 0px !important;
+    cursor: pointer !important;
+    border: 0 !important;
+}
+
+.citiasiainc-gif .citiasiainc-word button:hover {
+    background-color: #d79a00 !important;
+}
+
+
+.citiasiainc-gif .citiasiainc-word img {
+    width: 100% !important;
+    height: 20px !important;
+}
+
+.citiasiainc-gif .citiasiainc-img img {
+    display: flex !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* Citiasiainc Gif Css End */
+
+/* portofolio word css start */
+
+.porto-word {
+    flex-direction: column !important;
+    text-align: left;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.porto-desc {
+    width: 1100px;
+    align-items: center;
+}
+
+.porto-desc h3 {
+    color: #2758A7;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.porto-desc p {
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* portofolio word css end */
+
+/* peta css start */
+
+.peta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+}
+
+.peta-count {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+    bottom: -1320px;
+    align-items: center;
+    right: 150px;
+}
+
+.peta img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.peta-count h2 {
+    color: #267BB1;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.peta-count h4 {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+/* peta css end */
+
+/* mitra css start */
+
+.mitra-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'poppins';
+}
+
+.mitra-count .mitra-portfolio img {
+    width: 100px;
+}
+
+.mitra-count .mitra-portfolio h3 {
+    margin-top: 1rem;
+    color: #2679FF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.mitra-count .mitra-portfolio span {
+    color: #9B9B9B;
+    font-size: 27.259px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.mitra-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0.5px #9B9B9B;
+    padding: 0px 100px;
+    height: 280px;
+    justify-content: center;
+}
+
+/* mitra css end */
+
+/* layanan kami css start */
+
+.layanan-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+    margin-top: 1rem;
+}
+
+.layanan-banner img {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .layanan-banner h3 {
+    position: absolute;
+    color: #F9F9F9;
+text-align: center;
+text-shadow: 0px 0px 60px #000;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+} */
+
+/* layanan kami css end */
+
+/* mitra css start */
+
+.mitra {
+    flex-direction: column !important;
+    font-family: 'poppins';
+    align-items: center;
+}
+
+.mitra-banner {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #2758A7;
+    padding: 10px;
+}
+
+.mitra-banner h3 {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.mitra-tabs {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 100%;
+    gap: 10px;
+}
+
+.mitra-tabs h5 {
+    margin: 10px 0px;
+    width: 140px;
+    color: #2758A7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.mitra-tabs h5:hover {
+    text-decoration: underline 2px;
+}
+
+/* mitra css end */
+
+/* mitra logo luar negeri css start */
+
+.mitra-logo1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.mitra-logo1-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mitra-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.mitra-product .mitra-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 2rem;
+}
+
+.mitra-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.mitra-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.mitra-product .mitra-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* mitra logo luar negeri css end */
+
+/* board directors css start */
+
+.board-directors {
+    flex-direction: column;
+}
+
+.board-directors-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.directors-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.directors-product .directors-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 3rem;
+}
+
+.directors-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.directors-product-card .card-product img {
+    /* margin: auto;
+    padding: auto; */
+}
+
+.directors-product .directors-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+.directors-product .directors-product-card .product-desc {
+    background-color: #2758A7;
+    display: flex;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.directors-product .directors-product-card .product-desc:hover {
+    padding-bottom: 200px;
+    z-index: 5;
+}
+
+.product-word {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px !important;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    z-index: -1;
+}
+
+.product-desc:hover .product-word {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.product-desc a {
+    text-decoration: none;
+}
+
+.product-desc h3:nth-child(1) {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.product-desc .visit-product {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    transition: 0.23s ease-in-out;
+    transition-delay: .2s;
+    margin-top: -50px !important;
+    z-index: -1;
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #F5B203;
+    color: white;
+    border-radius: 100px;
+}
+
+.product-desc:hover .visit-product {
+    margin-top: unset !important;
+    z-index: 1;
+}
+
+.directors-product .directors-product-card .product-desc .product-name {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* mitra logo dalam negeri css start */
+
+.mitra-logo2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.mitra-logo2-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mitra-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.mitra-product .mitra-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 2rem;
+}
+
+.mitra-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.mitra-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.mitra-product .mitra-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* mitra logo dalam negeri css end */
+
+/* mitra logo dalam negeri css start */
+
+.news-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    display: none;
+}
+
+.news-div-product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-div-product .mitra-product {
+    font-family: 'roboto';
+    align-items: center;
+    justify-content: center;
+}
+
+.news-div-product .mitra-product .mitra-product-card {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-auto-rows: auto; */
+
+    grid-gap: 2rem;
+}
+
+.news-div-product .mitra-product .card-product {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.news-div-product .mitra-product-card .card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.news-div-product .mitra-product .mitra-product-card div {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* mitra logo dalam negeri css end */
+
+/* FAQ Program Prakerja css start */
+
+.faq-program {
+    flex-direction: column;
+    font-family: 'poppins';
+    align-items: center;
+    background-color: #2758A7;
+    width: 100%;
+    height: 550px;
+    margin-top: 7rem;
+}
+
+.faq-word {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.faq-word h3 {
+    color: #FFF;
+    font-size: 70.5px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 67.941px;
+    font-family: 'Inter';
+}
+
+.faq-answer {
+    display: none;
+    background-color: #fff;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-box {
+    margin-top: 3rem;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #E7E7E7;
+}
+
+.faq-banner {
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5B203;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.faq-banner h3 {
+    color: #2758A7;
+    /* background-color: #F5B203; */
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    /* padding: 7rem; */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.faq-answer p {
+    display: block;
+    width: 470px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.faq-list {
+    /* height: 200px; */
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-basis: 50%;
+    gap: 10px;
+}
+
+.faq-item {
+    gap: 10px;
+}
+
+.faq-list button {
+    width: 500px;
+    text-align: left;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.faq-list button img {
+    transition: transform 0.3s ease;
+}
+
+.faq-list button.expanded img.down {
+    transform: rotate(180deg);
+}
+
+/* FAQ Program Prakerja css end */
+
+/* footer css start */
+.footer-bg {
+    padding: 30px 0px 0px 0px;
+    background-color: #2758A7;
+}
+
+.footer-bg .container .footer-citiasia {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: left !important;
+    align-items: start !important;
+    flex-basis: 50%;
+}
+
+.footer-bg .container .footer-citiasia h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.footer-bg .container .footer-citiasia-2 {
+    /* flex-direction: column; */
+    flex-basis: 50%;
+    font-family: 'poppins';
+    flex-direction: column;
+}
+
+.footer-citiasia-2 .about-layanan {
+    display: flex;
+}
+
+.footer-citiasia-2 .about {
+    width: 200px;
+}
+
+.footer-citiasia-2 .layanan {
+    width: 200px;
+}
+
+.footer-citiasia-2 .about ul,
+li {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+}
+
+.footer-citiasia-2 .layanan ul,
+li {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+}
+
+.footer-citiasia-2 .layanan a {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bg .footer-citiasia .alamat {
+    flex-direction: column !important;
+    text-align: justify;
+    color: white;
+    width: 50%;
+}
+
+.footer-bg .footer-citiasia .alamat p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.footer-bg .container .footer-citiasia-2 .social-media {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.footer-bg .container .footer-citiasia-2 .social-media .list-sosmed {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bg .container .footer-citiasia-2 .form-subs {
+    width: 75%;
+    border: 1px solid;
+    border-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.footer-bg .container .footer-citiasia-2 .form-subs input {
+    height: 50px;
+    padding: 10.2px 0px 10.2px 16px;
+    width: 300px;
+
+    border-radius: 5px;
+}
+
+.footer-bg .container .footer-citiasia-2 .form-subs button {
+    padding: 12px 15.15px 13px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #EB4526
+}
+
+.footer-bg .container .footer-citiasia-2 .policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    color: white;
+}
+
+.footer-citiasia .reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+
+/* footer css end */

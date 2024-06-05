@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header & navbar css start */
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins';
+    background: rgba(217, 217, 217, 0.50);
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    padding: 10px 0px 10px 0px;
+    /* position: static; */
+}
+
+.navbar .nav-link {
+    display: flex;
+    padding-left: 10rem;
+    align-items: center;
+    gap: 50px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar .nav-link a {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.navbar .nav-link a:hover {
+    text-decoration: underline solid black 2.5px;
+    text-underline-offset: 8px;
+    color: #2758A7
+}
+
+.button-call-us {
+    display: flex;
+    width: 150px;
+    padding: 5px;
+    background-color: #EB4526;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button-call-us a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+
+/* header & navbar css end */
+
+/* pembatas css start */
+
+.pembatas img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 24px;
+}
+
+/* pembatas css end */
+
+
+/* detail product css start */
+
+.detail-product {
+    flex-direction: column;
+    font-family: 'poppins';
+    margin-bottom: 3rem;
+}
+
+.detail-product-word {
+    background-color: #2758A7;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-product-word h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.body-product {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.product-banner {
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-banner h3 {
+    color: #2758A7;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.product-banner img {
+    width: 750px;
+}
+
+.product-desc {
+    width: 925px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.product-desc li {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.call-us-product {
+    display: flex;
+    width: 170px;
+    padding: 5px;
+    background-color: #EB4526;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.call-us-product a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* detail product css end */
+
+/* footer css start */
+.bg {
+    padding: 30px 0px 0px 0px;
+    background-color: #2758A7;
+}
+
+.bg .container .footer-citiasia {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: left !important;
+    align-items: start !important;
+    flex-basis: 50%;
+}
+
+.bg .container .footer-citiasia h3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins';
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.bg .container .footer-citiasia-2 {
+    /* flex-direction: column; */
+    flex-basis: 50%;
+    font-family: 'poppins';
+    flex-direction: column;
+}
+
+.footer-citiasia-2 .about-layanan {
+    display: flex;
+}
+
+.footer-citiasia-2 .about {
+    width: 200px;
+}
+
+.footer-citiasia-2 .layanan {
+    width: 200px;
+}
+
+.footer-citiasia-2 .about ul,
+li {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+}
+
+.footer-citiasia-2 .layanan ul,
+li {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+}
+
+.footer-citiasia-2 .layanan a {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.bg .footer-citiasia .alamat {
+    flex-direction: column !important;
+    text-align: justify;
+    color: white;
+    width: 50%;
+}
+
+.bg .footer-citiasia .alamat p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.bg .container .footer-citiasia-2 .social-media {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.bg .container .footer-citiasia-2 .social-media .list-sosmed {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg .container .footer-citiasia-2 .form-subs {
+    width: 75%;
+    border: 1px solid;
+    border-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bg .container .footer-citiasia-2 .form-subs input {
+    height: 50px;
+    padding: 10.2px 0px 10.2px 16px;
+    width: 300px;
+
+    border-radius: 5px;
+}
+
+.bg .container .footer-citiasia-2 .form-subs button {
+    padding: 12px 15.15px 13px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #EB4526
+}
+
+.bg .container .footer-citiasia-2 .policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    color: white;
+}
+
+.footer-citiasia .reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+}
+
+/* footer css end */
